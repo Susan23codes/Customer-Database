@@ -1,0 +1,39 @@
+#customerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+img {
+    border-radius: 50% 75%;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid black; */
+}
+
+.last_element {
+    margin-bottom: 20px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.email {
+    color: darkgrey;
+}
+
+.customer_card {
+   width: 250px;
+}
+
+#title {
+    font-size: 40px;
+}
