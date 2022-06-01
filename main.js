@@ -28,6 +28,7 @@ function showCustomers(customers) {
         let customerAddress1 = document.createElement("p")
         customerAddress1.innerText = (`${customer.location.street.number} ${customer.location.street.name}`)
         let customerAddress2 = document.createElement("p")
+        customerAddress2.classList.add("address")
         let stateName = nameToAbbr(customer.location.state);
         customerAddress2.innerText = (`${customer.location.city}, ${stateName} ${customer.location.postcode}`)
         // customerAddress1.innerText = (`${customer.location.street.number} ${customer.location.street.name} ${customer.location.city} ${stateName} ${customer.location.postcode}`)
